@@ -59,8 +59,8 @@ a:hover { color: var(--accent); }
 .site-header { position: sticky; top: 0; z-index: 20; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
 .header-inner { display: flex; align-items: center; justify-content: space-between; padding: .9rem 0; }
 .brand { font-family: var(--serif); font-weight: 600; font-size: 1.3rem; text-decoration: none; }
-.brand-with-logo { display: inline-flex; align-items: center; gap: .65rem; font-size: 1.12rem; }
-.brand-logo { width: 44px; height: 44px; object-fit: contain; border-radius: 50%; background: #fff; border: 1px solid var(--line); }
+.brand-with-logo { display: inline-flex; align-items: center; gap: .7rem; font-size: 1.35rem; font-weight: 700; }
+.brand-logo { width: 64px; height: 64px; object-fit: contain; border-radius: 50%; background: #fff; border: 1px solid var(--line); }
 .brand-dot { color: var(--accent); }
 .nav-toggle { display: none; background: none; border: 1px solid var(--line); border-radius: 999px; padding: .6rem .9rem; cursor: pointer; }
 .nav-toggle-bars { display: block; width: 22px; height: 2px; background: currentColor; box-shadow: 0 6px 0 currentColor, 0 -6px 0 currentColor; }
