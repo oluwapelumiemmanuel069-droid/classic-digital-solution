@@ -2,7 +2,6 @@
    EDITABLE SITE CONFIG — change these, the site updates.
    ============================================================ */
 const SITE_CONFIG = {
-  status: "Available for select projects", // e.g. "Booked until Nov — waitlist open"
   location: "Remote · working worldwide",
   availability: "Booking 1–2 projects for next quarter",
   // Messages are delivered here via FormSubmit (free, no backend).
@@ -12,7 +11,6 @@ const SITE_CONFIG = {
 };
 
 /* Apply config */
-document.getElementById("status-text").textContent = SITE_CONFIG.status;
 document.getElementById("meta-location").textContent = SITE_CONFIG.location;
 document.getElementById("meta-availability").textContent = SITE_CONFIG.availability;
 const emailLink = document.getElementById("contact-email");

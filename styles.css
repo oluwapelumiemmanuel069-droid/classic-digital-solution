@@ -78,9 +78,6 @@ a:hover { color: var(--accent); }
 .hero-actions { justify-content: center; }
 .portrait-card { width: 100%; margin: 0; }
 .hero-meta { width: 100%; }
-.status-pill { display: inline-flex; align-items: center; gap: .55rem; background: var(--card); border: 1px solid var(--line); border-radius: 999px; padding: .45rem 1rem; font-size: .9rem; font-weight: 500; margin: 0; box-shadow: var(--shadow); }
-.status-dot { width: 9px; height: 9px; border-radius: 50%; background: #2e9e5b; box-shadow: 0 0 0 5px rgba(46,158,91,.15); animation: pulse 2.4s infinite; }
-@keyframes pulse { 50% { box-shadow: 0 0 0 8px rgba(46,158,91,.08); } }
 .lede { font-size: clamp(1.1rem, 2vw, 1.3rem); color: var(--muted); max-width: 46ch; }
 .hero-actions { display: flex; gap: .8rem; flex-wrap: wrap; margin: 1rem 0 1.2rem; justify-content: center; }
 .btn { display: inline-block; border-radius: 999px; padding: .85rem 1.7rem; font-weight: 600; text-decoration: none; border: 1.5px solid transparent; cursor: pointer; font-size: 1rem; transition: transform .18s ease, box-shadow .18s ease, background .18s ease; }
